@@ -18,6 +18,9 @@ import {GCFBootstrapper} from 'gcf-utils';
 
 const bootstrap = new GCFBootstrapper({
   taskTargetEnvironment: 'functions',
+  projectId: "projectId",
+  functionName: "functionName",
+  location: "location",
 });
 
 // We only need to deploy gcf-utils in the frontend server because
